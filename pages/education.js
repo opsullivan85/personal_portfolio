@@ -16,9 +16,14 @@ export default function Home() {
                     Education
                 </h2>
 
-                <p className={styles.description}>
-                    What I've Learned
-                </p>
+                <div style="display:inline-block;vertical-align:top;">
+                    <Image src="/WPI_logo.png" layout='responsive' width={500} height={500}/>
+                </div>
+                <div style="display:inline-block;">
+                    <p className={styles.description}>
+                        What I've Learned
+                    </p>
+                </div>
             </main>
         </div>
     )
