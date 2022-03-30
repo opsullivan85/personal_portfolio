@@ -12,17 +12,17 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <h2 className={styles.title}>
-                    Education
-                </h2>
+                <div>
+                    <h2 className={styles.title}>
+                        Education
+                    </h2>
 
-                <div>
-                    <Image src="/WPI_logo.png" layout='responsive' width={500} height={500}/>
-                </div>
-                <div>
-                    <p className={styles.description}>
-                        What I've Learned
-                    </p>
+                    <div class="flex items-center gap-10">
+                        <Image src="/WPI_logo.png" width={250} height={250}/>
+                        <p className={styles.description}>
+                            What I've Learned
+                        </p>
+                    </div>
                 </div>
             </main>
         </div>
