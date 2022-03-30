@@ -13,17 +13,8 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h2 className={styles.title}>
-                    Education
+                    todolist
                 </h2>
-
-                <div>
-                    <Image src="/WPI_logo.png" layout='responsive' width={500} height={500}/>
-                </div>
-                <div>
-                    <p className={styles.description}>
-                        What I've Learned
-                    </p>
-                </div>
             </main>
         </div>
     )
